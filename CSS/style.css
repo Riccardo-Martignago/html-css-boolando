@@ -3,8 +3,8 @@
     padding: 0;
     box-sizing: border-box;
 }
-header{
-    background-color: #FF6900;
+
+header, footer{
     position: sticky;
     left: 0;
     right: 0;
@@ -12,7 +12,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-header, main, footer, ul{
+header, main, footer, ul, footer > section{
     display: flex;
 }
 ul{
@@ -34,6 +34,7 @@ figure{
     position: relative;
 }
 .container{
+    color: white;
     position: absolute;
     left: 0;
     bottom: 2.7rem;
@@ -54,4 +55,17 @@ figure{
     position: absolute;
     right: 0;
     top: 1rem;
+}
+footer{
+    background-color: #1A1A1A;
+    color: white;
+}
+header{
+    background-color: #FF6900;
+}
+.social{
+    align-items: center;
+}
+footer > section{
+    flex-direction: column;
 }
