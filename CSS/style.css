@@ -5,11 +5,11 @@
 }
 header{
     background-color: #FF6900;
-    position: fixed;
+    position: sticky;
     left: 0;
     right: 0;
     padding: 1rem 10rem;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 header, main, footer, ul{
@@ -23,4 +23,28 @@ ul{
 }
 li{
     margin: 0 .3rem;
+}
+main{
+    padding: 3rem 10rem;
+}
+figure > img{
+    height: 450px;
+}
+figure{
+    position: relative;
+}
+.container{
+    position: absolute;
+    left: 0;
+    bottom: 2.7rem;
+}
+.sales{
+    display: inline-block;
+    background-color: #FF0000;
+    position: relative;
+}
+.sostenibilita{
+    display: inline-block;
+    background-color: #008000;
+    position: relative;
 }
