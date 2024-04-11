@@ -48,3 +48,10 @@ figure{
     background-color: #008000;
     position: relative;
 }
+.heart{
+    background-color: white;
+    padding: 1rem;
+    position: absolute;
+    right: 0;
+    top: 1rem;
+}
