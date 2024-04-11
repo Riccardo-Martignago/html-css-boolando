@@ -4,10 +4,16 @@
     box-sizing: border-box;
 }
 
-header, footer{
+header{
     position: sticky;
+}
+footer{
+    position: fixed;
+}
+header, footer{
     left: 0;
     right: 0;
+    bottom: 0;
     padding: 1rem 10rem;
     justify-content: space-between;
     align-items: center;
@@ -136,4 +142,3 @@ div.webp6{
 div.webp6:hover{
     background-image: url(../img/6b.webp);
 }
-
