@@ -94,3 +94,46 @@ h1{
 p > span{
     font-size: 0.8rem;
 }
+figure > div{
+    height: 450px;
+    width: 311.683px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.webp1{
+    background-image: url(../img/1.webp);
+}
+div.webp1:hover{
+    background-image: url(../img/1b.webp);
+}
+div.webp2{
+    background-image: url(../img/2.webp);
+}
+div.webp2:hover{
+    background-image: url(../img/2b.webp);
+}
+div.webp3{
+    background-image: url(../img/3.webp);
+}
+div.webp3:hover{
+    background-image: url(../img/3b.webp);
+}
+div.webp4{
+    background-image: url(../img/4.webp);
+}
+div.webp4:hover{
+    background-image: url(../img/4b.webp);
+}
+div.webp5{
+    background-image: url(../img/5.webp);
+}
+div.webp5:hover{
+    background-image: url(../img/5b.webp);
+}
+div.webp6{
+    background-image: url(../img/6.webp);
+}
+div.webp6:hover{
+    background-image: url(../img/6b.webp);
+}
+
