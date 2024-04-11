@@ -30,14 +30,14 @@ main{
 figure > img{
     height: 450px;
 }
-figure{
+article{
     position: relative;
 }
 .container{
     color: white;
     position: absolute;
     left: 0;
-    bottom: 2.7rem;
+    bottom: 5.7rem;
 }
 .sales{
     display: inline-block;
