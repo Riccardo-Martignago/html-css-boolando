@@ -3,14 +3,11 @@
     padding: 0;
     box-sizing: border-box;
 }
-
-header{
-    position: sticky;
-}
-footer{
-    position: fixed;
+body{
+    font-family: sans-serif;
 }
 header, footer{
+    color: white;
     left: 0;
     right: 0;
     bottom: 0;
@@ -72,12 +69,13 @@ article > section{
     top: .5rem;
 }
 footer{
-    margin-top: 2rem;
+    position: fixed;
+    margin: 2rem 0 .05rem;
     background-color: #1A1A1A;
-    color: white;
     font-size: 0.8rem;
 }
 header{
+    position: sticky;
     margin-bottom: 2rem;
     background-color: #FF6900;
 }
@@ -141,4 +139,10 @@ div.webp6{
 }
 div.webp6:hover{
     background-image: url(../img/6b.webp);
+}
+.red{
+    color: #FF0000;
+}
+.line {
+    text-decoration: line-through;
 }
